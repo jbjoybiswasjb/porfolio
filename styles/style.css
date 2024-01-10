@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Google Fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+/* 
+                                        Header.
+=========================================================================================
+*/
+header {
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, 5% 50%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mary_common_button{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.marr_banner_margin_padding {
+    margin-left: 225px;
+}
+
+
+/* Nav section. */
+.marr_banner_margin_padding nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 230px 50px 0;
+}
+
+nav h3 {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav h3 span {
+    color: #FD6E0A;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+nav ul li a {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+/* 
+                                  Banner Section.
+=============================================================================
+*/
+#mary_banner{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.mary_banner_content h2{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.mary_banner_content h1{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.mary_banner_content p{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0 30px 0;
+    max-width: 585px;
+}
+
+.mary_banner_first_button{
+    display: inline-block;
+    margin-right: 20px;
+}
