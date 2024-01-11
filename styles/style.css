@@ -288,7 +288,7 @@ footer {
     justify-content: space-between;
     max-width: 1140px;
     margin: 0 auto;
-    padding: 130px;
+    padding: 130px 0;
 }
 
 .footer_common_section {
