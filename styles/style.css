@@ -133,9 +133,13 @@ nav ul li a {
 #mary_about_me {
     border-radius: 10px;
     background: #FFF8F3;
-    padding: 130px 155px;
-    margin: 130px 0;
+    padding: 130px;
+    margin: 130px auto;
+    max-width: 1140px;
+    box-sizing: border-box;
 }
+
+
 
 .mary_class_about_text p {
     color: #757575;
