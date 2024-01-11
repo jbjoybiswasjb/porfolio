@@ -255,7 +255,7 @@ nav ul li a {
 }
 
 .mary_resume_common h6 {
-    color:#757575;
+    color: #757575;
     font-size: 20px;
     font-weight: 600;
 }
@@ -268,7 +268,7 @@ nav ul li a {
     padding-right: 15%;
 }
 
-.mary_resume_button{
+.mary_resume_button {
     text-align: center;
     margin: 50px auto 115px;
 }
@@ -276,6 +276,72 @@ nav ul li a {
 
 
 /* 
-                                        Footer.
-=========================================================================================
+Footer.
+=========================================================================================                                        
 */
+footer {
+    background-color: #FFF8F3;
+}
+
+.footer_flex {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px;
+}
+
+.footer_common_section {
+    width: 45%;
+}
+
+
+/* Footer flex text. */
+
+.footer_flex_text h6 {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer_flex_text p {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0 30px;
+}
+
+.footer_flex_text ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer_flex_text ul li {
+    margin-right: 25px;
+}
+
+.footer_flex_text ul li a {
+    text-decoration: none;
+}
+
+
+/* Footer flex form. */
+.footer_flex_form h6 {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.footer_flex_form_input {
+    margin-bottom: 25px;
+}
+
+.footer_flex_form_input input, textarea {
+    border: none;
+    border-radius: 5px;
+    background:#FFF;
+    padding: 20px 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
