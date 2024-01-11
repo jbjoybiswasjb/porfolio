@@ -4,7 +4,7 @@
 }
 
 /* Google Fonts. */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,700&display=swap');
 
 /* 
                                         Header.
@@ -222,3 +222,60 @@ nav ul li a {
     line-height: 28px;
 }
 
+
+
+/* 
+                                 Resume Section.
+=============================================================================
+*/
+#mary_resume {
+    margin-bottom: 115px;
+}
+
+#mary_resume h3 {
+    margin-bottom: 115px;
+}
+
+.mary_flex {
+    display: flex;
+    gap: 25px;
+}
+
+.mary_resume_common h4 {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.mary_resume_common h5 {
+    margin: 30px 0 10px;
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.mary_resume_common h6 {
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mary_resume_common p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0 30px;
+    padding-right: 15%;
+}
+
+.mary_resume_button{
+    text-align: center;
+    margin: 50px auto 115px;
+}
+
+
+
+/* 
+                                        Footer.
+=========================================================================================
+*/
